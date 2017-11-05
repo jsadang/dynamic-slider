@@ -1,0 +1,60 @@
+*, *::before, *::after {
+    	box-sizing: border-box;
+    }
+	body {
+		background-color:#d7d7d7;
+		margin:auto;
+	}
+	.container {
+		width: 630px;
+		margin: 0 auto;
+	}
+	.upload {
+		background-color: #54ACD2;
+		padding: 1em;
+	}
+	.upload-items {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	input, button {
+		flex: 1;
+	}
+	.btn {
+		padding: 5px;
+		background-color: #1A2223;
+		border-radius: 3px;
+		color: #54ACD2;
+		font-size: 2rem;
+	}
+	.delete {
+		font-size: 1rem;
+	}
+	input {
+		font-size: 1.3em;
+		color: #fff;
+	}
+	h1 {
+		font-family: 'Roboto';
+		text-align: center;
+		background-color: #1A2223;
+		color: #54ACD2;
+		padding: 1em 0;
+		margin: 0;
+	}
+	.upload-images-container {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: auto;
+		grid-gap: 28px;
+		margin-top: 20px;
+		padding-bottom: 2.5em;
+	}
+	footer {
+		font-family: 'Roboto';
+		background-color: #1A2223;
+		color: white;
+		padding: 1em;
+		margin: 0;
+	}
